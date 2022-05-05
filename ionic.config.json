@@ -1,0 +1,7 @@
+{
+  "name": "perfumariaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
