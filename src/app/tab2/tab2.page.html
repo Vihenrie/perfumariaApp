@@ -1,17 +1,55 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Joias
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-searchbar color="light" showCancelButton="focus" cancelButtonText="Custom Cancel" placeholder="Digite aqui..." ></ion-searchbar>
+
+  <ion-grid>
+  <ion-row>
+    <ion-col size="6">
+      <ion-card style="border-radius: 10px">
+        <img style="height: 116px; width: 116px;" src="https://a-static.mlcdn.com.br/1500x1500/colar-navio-titanic-coracao-do-oceano-mar-azul-lc/lcimportacaoevendasltda/lc-0046/555a2d6217874b4e11ada50d80743b37.jpg" alt="coracao_titanic">
+        <ion-card-content>
+          <p><strong>Coração Titanic - colar</strong></p>
+          <p class="ion-text-right"><ion-badge color="success">R$149,90</ion-badge></p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card style="border-radius: 10px">
+        <img style="height: 116px; width: 116px;" src="https://uploads.jovemnerd.com.br/wp-content/uploads/2018/07/senhor-dos-aneis-serie.jpg" alt="anel do poder">
+        <ion-card-content>
+          <p><strong>Anel do poder - Anel</strong></p>
+          <p class="ion-text-right"><ion-badge color="success">R$74,50</ion-badge></p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6">
+      <ion-card style="border-radius: 10px">
+        <img style="height: 116px; width: 116px;" src="https://m.media-amazon.com/images/I/41Ogv6-P04L._AC_SX342_.jpg" alt="colar_viking">
+        <ion-card-content>
+          <p><strong>pulseira Viking - Pulseira</strong></p>
+          <p class="ion-text-right"><ion-badge color="success">R$99,90</ion-badge></p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card style="border-radius: 10px">
+        <img style="height: 116px; width: 116px;" src="https://image-cdn.hypb.st/https%3A%2F%2Fbae.hypebeast.com%2Ffiles%2F2021%2F02%2Fcartier-love-bracelet-the-culture-of-design-campaign-jewelry-where-to-buy-5.jpg?w=1600&cbr=1&q=90&fit=max" alt="anel do poder">
+        <ion-card-content>
+          <p><strong>Bracelete cartie</strong></p>
+          <p class="ion-text-right"><ion-badge color="success">R$243,50</ion-badge></p>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
